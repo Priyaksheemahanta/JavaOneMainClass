@@ -244,9 +244,9 @@ public class AppTwo {
 </code></pre>
 
 
-<plugin>: Defines the Maven plugin to use. In this case, it's the maven-jar-plugin.</br>
-<version>: Specifies the version of the plugin.</br>
-<configuration>: Allows you to configure the plugin.</br>
-<archive>: Contains configuration related to the archive, including the manifest.</br>
-<manifest>: Contains entries for the manifest file in the JAR.</br>
-<mainClass>: Specifies the fully qualified name of the main class to be used as the entry point of your application. Replace com.oneclass.Main with the actual path of your main class.</br>
+plugin: Defines the Maven plugin to use. In this case, it's the maven-jar-plugin.</br>
+version: Specifies the version of the plugin.</br>
+configuration: Allows you to configure the plugin.</br>
+archive: Contains configuration related to the archive, including the manifest.</br>
+manifest: Contains entries for the manifest file in the JAR.</br>
+mainClass: Specifies the fully qualified name of the main class to be used as the entry point of your application. Replace com.oneclass.Main with the actual path of your main class.</br>
