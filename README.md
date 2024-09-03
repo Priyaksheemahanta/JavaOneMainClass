@@ -188,10 +188,10 @@ SimpleJavaProject/
 
 <pre><code>package com.oneclass;
 
-public class App {
+public class AppTwo {
     public static void main(String[] args) {
         // Create a user object
-        User user = new User("John");
+        User user = new User("Bipasha");
 
         // Create a greeting service object
         GreetingService greetingService = new GreetingService();
@@ -242,3 +242,11 @@ public class App {
     &lt;/build&gt;
 
 </code></pre>
+
+
+<plugin>: Defines the Maven plugin to use. In this case, it's the maven-jar-plugin.</br>
+<version>: Specifies the version of the plugin.</br>
+<configuration>: Allows you to configure the plugin.</br>
+<archive>: Contains configuration related to the archive, including the manifest.</br>
+<manifest>: Contains entries for the manifest file in the JAR.</br>
+<mainClass>: Specifies the fully qualified name of the main class to be used as the entry point of your application. Replace com.oneclass.Main with the actual path of your main class.</br>
