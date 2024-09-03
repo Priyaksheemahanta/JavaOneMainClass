@@ -2,9 +2,6 @@
 JAVA One Main Class
 
 
-<h1>JavaOneMainClass</h1>
-
-<p><strong>Java One Main Class</strong></p>
 
 <h2>Project Structure</h2>
 
